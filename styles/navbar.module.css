@@ -1,0 +1,102 @@
+.container{
+    color: goldenrod;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.container span{
+    color: white;
+}
+.navlink{
+    display: flex;
+    gap: 20px;
+}
+.navlink p{
+    color: white;
+}
+.navmenu{
+    display: none;
+}
+.navmenu p{
+    color: white;
+}
+.search{
+    display: flex;
+    background-color: gray;
+    color: black;
+    width: 20rem;
+    border-radius: 20px;
+    padding: 10px;
+}
+.search input{
+    border: none;
+    outline: none;
+    background-color: gray;
+    font-size: 15px;
+    margin: 2px;
+    color: white;
+}
+.search ::placeholder{
+    color: white;
+}
+.btn1{
+   height:36px;
+   width: 8rem;
+   padding: 5px;
+   font-size: 15px;
+   border-radius: 10px;
+   background:linear-gradient(to right, goldenrod, white);
+   border: none;
+}
+
+.btn2{
+   height:36px;
+   width: 8rem;
+   padding: 5px;
+   font-size: 15px;
+   border-radius: 10px;
+   background-color: black;
+   color: white;
+   border: 1px solid white;
+}
+.btn{
+    display: flex;
+    gap: 20px;
+}
+.icon{
+    display: none;
+}
+
+@media screen and (orientation:portrait) {
+    .navmenu{
+        display: block;
+        position: absolute; 
+        display: flex;
+        flex-direction: column;
+        top: 76px;
+        left: 0;
+        padding: 20px;
+        gap: 60px;
+        width: 15rem;
+        background-color: black;
+        height: 55vh;
+    }
+    .navlink{
+        display: none;
+    }
+    .btn1{
+        display: none;
+    }
+    .container{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .search{
+        display: none;
+    }
+    .icon{
+        display: block;
+    }
+}

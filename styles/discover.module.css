@@ -1,0 +1,58 @@
+.icon{
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    display: flex;
+    gap: 20rem;
+    padding: 40px;
+    margin-top: 30px;
+}
+.discover h1{
+   font-size: 4rem;
+   text-decoration: line-through;
+}
+.discover{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.discover p{
+    font-size: 20px;
+    color: gray;
+}
+.discover button{
+    height: 45px;
+    font-size: 25px;
+    width: 20em;
+    margin-left: 60px;
+    background-color: gold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.icon{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    cursor: pointer;
+}
+
+
+
+@media screen and (orientation:portrait) {
+    .header{
+        gap: 0px;
+        flex-direction: column;
+    }
+    .discover h1{
+        font-size: 2rem;
+    }
+    .discover button{
+        width: 10em;
+    }
+    .icon{
+        display: none;
+    }
+}

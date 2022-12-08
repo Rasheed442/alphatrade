@@ -1,0 +1,62 @@
+.container{
+    padding: 15px;
+    border: 2px solid gray;
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.container:hover{
+   transform:scale(1.03);
+   box-shadow: white 8px 8px 8px 8px ;
+}
+.container img{
+    border-radius: 10px;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+.header img{
+    border-radius: 20px;
+}
+.image1{
+    margin-left: -5px;
+}
+.icon{
+    display: flex;
+    justify-content: space-between;
+}
+.eth{
+    display: flex;
+    justify-content: space-between;
+}
+.heart{
+    display: flex;
+    gap: 5px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    padding-left: 60px;
+    gap: 30px;
+    padding: 50px;
+}
+.top{
+    margin: 40px;
+    padding: 30px;
+}
+
+@media screen and (orientation:portrait) {
+    .grid{
+        grid-template-columns: repeat(8,auto);
+        overflow: scroll;
+    }
+    .top{
+        margin-left: 30px;
+        padding: 0px;
+    }
+}
