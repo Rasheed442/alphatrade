@@ -51,15 +51,16 @@
     
     .bg {
         display: block;
-        background-image: url("/nft.avif");
-        height: 30rem;
-        width: 100vw;
+        height: 25rem;
         background-position: center;
-        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
     }
     .bg h4{
         font-size: 50px;
         text-align: center;
+      
     }
     .bg p{
         font-size: 20px;

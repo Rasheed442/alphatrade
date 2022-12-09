@@ -25,7 +25,7 @@ export default function Home() {
 
     <div className={style.bg} > 
             <h4>DISCOVER AND COLLECT SUPER RARE NFTs.</h4>
-            <p><span style={{color:"black"}}>AlPHATrade</span> is a shared liquidity NFT market, smart contract is used by multiple website to provide the users
+            <p><span style={{color:"goldenrod"}}>AlPHATrade</span> is a shared liquidity NFT market, smart contract is used by multiple website to provide the users
               the latest multiple experiences.
             </p>
     </div>

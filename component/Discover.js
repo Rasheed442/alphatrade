@@ -2,10 +2,13 @@ import React from 'react'
 import style from'../styles/discover.module.css'
 import {FaDiscord} from "react-icons/fa"
 import {BsTwitter} from "react-icons/bs"
+import Image from 'next/image'
 import {AiFillLinkedin} from "react-icons/ai"
 function Discover() {
+
   return (
     <>
+
        <div className={style.header}>
 
            <div className={style.icon}>
@@ -23,6 +26,79 @@ function Discover() {
        </div> 
 
    </div>
+
+      <div className={style.journey}>
+        <div  className={style.j1}>
+          <Image
+          src='/nft2.jpeg'
+          width={300}
+          height={300}
+          priority
+          />
+          <p>HATE ELOVES NFTs</p>
+         
+        </div>
+
+        <div  className={style.j2}>
+          <Image
+          src='/nft3.jpeg'
+          width={300}
+          height={300}
+          priority
+          />
+          <p>BLUEFACE NFTs</p>
+        </div>
+
+        <div  className={style.j3}>
+          <Image
+          src='/nft4.jpeg'
+          width={300}
+          height={300}
+          priority
+          />
+          <p>JACUEMOS APE COINs</p>
+        </div>
+  
+      </div>
+
+      <div className={style.journey1}>
+        <div  className={style.j1}>
+          <Image
+          src='/nft6.jpeg'
+          width={300}
+          height={300}
+          priority
+          />
+          <p>HATE ELOVES NFTs</p>
+         
+        </div>
+
+        <div  className={style.j2}>
+          <Image
+          src='/nft5.jpeg'
+          width={300}
+          height={300}
+          priority
+          />
+          <p>BLUEFACE NFTs</p>
+        </div>
+
+        <div  className={style.j3}>
+          <Image
+          src='/nft7.jpeg'
+          width={300}
+          height={300}
+          priority
+          />
+          <p>JACUEMOS APE COINs</p>
+        </div>
+  
+      </div>
+
+
+      <div>
+         <h1>All In One <br/>NFT Marketplace For<br/><span className='type'></span></h1>
+      </div>
     </>
   )
 }

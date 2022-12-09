@@ -8,10 +8,13 @@
     border-radius: 10px;
     transition: 0.5s;
     cursor: pointer;
+    border-top: 2px solid purple;
+    border-bottom: 2px solid purple;
 }
 .container:hover{
    transform:scale(1.03);
    box-shadow: white 8px 8px 8px 8px ;
+   
 }
 .container img{
     border-radius: 10px;

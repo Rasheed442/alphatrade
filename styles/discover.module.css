@@ -38,8 +38,77 @@
     gap: 20px;
     cursor: pointer;
 }
+.journey{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    padding: 60px;
+    cursor: pointer;
+}
+.journey img{
+    border: 2px solid red;
+    border-radius: 20px;
+}
+.journey1{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    padding: 60px;
+    cursor: pointer;
+}
 
-
+.journey1 img{
+    border: 2px solid red;
+    border-radius: 20px;
+}
+.j2{
+    margin-top: 10rem;
+}
+.j1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.j1 img{
+    position: relative;
+    transition: 0.5s;
+}
+.j1 p{
+    margin-top: -39px;
+}
+.j1 img:hover{
+    margin-bottom: 60px;
+}
+.j2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.j2 img{
+    position: relative;
+    transition: 0.5s;
+}
+.j2 p{
+    margin-top: -39px;
+}
+.j2 img:hover{
+    margin-bottom: 60px;
+}
+.j3{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.j3 img{
+    position: relative;
+    transition: 0.5s;
+}
+.j3 p{
+    margin-top: -39px;
+}
+.j3 img:hover{
+    margin-bottom: 50px;
+}
 
 @media screen and (orientation:portrait) {
     .header{
@@ -51,8 +120,22 @@
     }
     .discover button{
         width: 10em;
+        margin-left: 30px;
     }
     .icon{
         display: none;
+    }
+    .journey{
+        flex-direction: column;
+        gap: 2rem;
+        padding: 35px;
+    }
+    .journey1{
+        flex-direction: column;
+        gap: 2rem;
+        padding: 35px;
+    }
+    .j2{
+        margin-top: 0px;
     }
 }

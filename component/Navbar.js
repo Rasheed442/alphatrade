@@ -6,9 +6,9 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 function Navbar() {
 
-  useEffect(() => {
-    Aos.init({ duration: 400 });
-  }, []);
+  // useEffect(() => {
+  //   Aos.init({ duration: 400 });
+  // }, []);
 
   const [open , setOpen] = useState(true)
   return (
@@ -27,7 +27,7 @@ function Navbar() {
            <Link href='/'><p>Collections</p></Link>  
            <Link href='/'><p>Community</p></Link>  
           </div>
-          {open ?"":<div className={style.navmenu} data-aos='slide-right'>
+          {open ?"":<div className={style.navmenu} data-aos='slide-right' data-aos-duration='500'>
            <Link href='/' onClick={()=> setOpen(true)}><p>Explore</p></Link>  
            <Link href='/' onClick={()=> setOpen(true)}><p>My Profile</p></Link>  
            <Link href='/' onClick={()=> setOpen(true)}><p>Following</p></Link>  
@@ -41,7 +41,7 @@ function Navbar() {
               <div className={style.icon} onClick={()=>{
                 setOpen(!open)
               }}>
-             {open ?<AiOutlineMenu size={27}/>: <AiOutlineClose size={27} data-aos='zoom-in'/> }
+             {open ?<AiOutlineMenu size={27}/>: <AiOutlineClose size={27} data-aos-duration='500' data-aos='zoom-in'/> }
              </div>
            </div>
 
