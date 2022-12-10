@@ -109,6 +109,14 @@
 .j3 img:hover{
     margin-bottom: 50px;
 }
+.center{
+    text-align: center;
+    font-size: 5rem;
+    padding: 60px;
+}
+.center span{
+    text-decoration: line-through;
+}
 
 @media screen and (orientation:portrait) {
     .header{
@@ -137,5 +145,17 @@
     }
     .j2{
         margin-top: 0px;
+    }
+    .j1 p{
+        margin-top: 0px;
+    }
+    .j2 p{
+        margin-top: 0px;
+    }
+    .j3 p{
+        margin-top: 0px;
+    }
+    .center{
+        font-size: 2rem;
     }
 }

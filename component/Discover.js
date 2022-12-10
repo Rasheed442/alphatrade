@@ -4,6 +4,7 @@ import {FaDiscord} from "react-icons/fa"
 import {BsTwitter} from "react-icons/bs"
 import Image from 'next/image'
 import {AiFillLinkedin} from "react-icons/ai"
+import Digital from '../component/Digital'
 function Discover() {
 
   return (
@@ -95,10 +96,8 @@ function Discover() {
   
       </div>
 
-
-      <div>
-         <h1>All In One <br/>NFT Marketplace For<br/><span className='type'></span></h1>
-      </div>
+         <h1 className={style.center}>All In One <br/>NFT Marketplace For<br/><span style={{color:"blue"}}>Digital Arts.</span></h1>
+         <Digital/>
     </>
   )
 }

@@ -1,0 +1,89 @@
+.container{
+    padding: 45px;
+    display: flex;
+    gap:20px ;
+    
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid gray;
+    padding: 40px;
+    border-radius: 20px;
+}
+.head p{
+    font-size: 20px;
+    color: gray;
+}
+.headline{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    padding: 80px;
+    flex-direction: column;
+}
+.main{
+    border: 1px solid white;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 20px;
+}
+.leave{
+    display: flex;
+    gap: 10px;
+}
+.grid{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    padding: 40px;
+}
+.mail{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.purchase{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    font-size: 30px;
+    gap: 20px;
+}
+.purchase button{
+    padding: 10px;
+    height: 50px;
+    width: 10rem;
+    font-size: 15px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid blue;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.purchase button:hover{
+    background-color: blue;
+    color: black;
+}
+
+
+@media screen and (orientation:portrait) {
+    .container{
+        flex-direction: column;
+    }
+    .grid{
+        flex-direction: column;
+    }
+    .purchase{
+        padding: 30px;
+    }
+    .purchase h1{
+        font-size: 35px;
+    }
+}
